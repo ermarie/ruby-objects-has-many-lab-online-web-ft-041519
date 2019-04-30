@@ -14,7 +14,6 @@ class Post
   end
 
   def author_name
-    puts "author.name: #{author.name}"
     if defined? author.name
       author.name
     else
