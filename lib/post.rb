@@ -15,7 +15,7 @@ class Post
 
   def author_name
     puts "author.name: #{author.name}"
-    if author.name.empty?
+    if author.name == undefined
       nil
     else
       author.name
