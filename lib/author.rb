@@ -30,8 +30,8 @@ class Author
     @@post_count
   end
 
-  def all 
-    @@all 
+  def all
+    @@all
   end
 
 end
