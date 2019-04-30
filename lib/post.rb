@@ -17,7 +17,7 @@ class Post
     if self.name.empty?
       nil
     else
-      self.name
+      author.name
     end
   end
 
