@@ -15,10 +15,10 @@ class Post
 
   def author_name
     puts "author.name: #{author.name}"
-    if author.name == undefined
-      nil
-    else
+    if defined? author.name
       author.name
+    else
+      nil
     end
   end
 
